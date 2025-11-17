@@ -3,43 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Ranjith | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-    <header class="header">
-        <h1>Your Name</h1>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">Ranjith</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h1>Hello, I'm <span>Ranjith</span></h1>
         <p>Frontend Developer • Angular • Node.js • SQL</p>
-    </header>
-
-    <section class="section" id="about">
-        <h2>About Me</h2>
-        <p>I am a Full Stack Developer with experience in Angular, Node.js, SQL, HTML, CSS, and JavaScript.</p>
+        <a href="#projects" class="btn">View My Work</a>
     </section>
 
+    <!-- Projects -->
     <section class="section" id="projects">
-        <h2>Projects</h2>
+        <h2 class="section-title">Projects</h2>
 
-        <div class="project">
-            <h3>Project 1</h3>
-            <p>Short description about your project.</p>
-            <a href="#" target="_blank">View Demo</a>
-            <a href="#" target="_blank">GitHub Code</a>
-        </div>
+        <div class="project-grid">
 
-        <div class="project">
-            <h3>Project 2</h3>
-            <p>Short description about your project.</p>
-            <a href="#" target="_blank">View Demo</a>
-            <a href="#" target="_blank">GitHub Code</a>
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>Short description about your project.</p>
+                <div class="project-links">
+                    <a href="#" target="_blank">Demo</a>
+                    <a href="#" target="_blank">Code</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>Short description about your project.</p>
+                <div class="project-links">
+                    <a href="#" target="_blank">Demo</a>
+                    <a href="#" target="_blank">Code</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>Project 3</h3>
+                <p>Short description about your project.</p>
+                <div class="project-links">
+                    <a href="#" target="_blank">Demo</a>
+                    <a href="#" target="_blank">Code</a>
+                </div>
+            </div>
+
         </div>
     </section>
 
+    <!-- About -->
+    <section class="section" id="about">
+        <h2 class="section-title">About Me</h2>
+        <p class="about-text">
+            I am a Full Stack Developer with experience in Angular, Node.js, SQL,
+            HTML, CSS, TypeScript,JavaScript and Express.js. I love building clean, modern,
+            responsive user interfaces and full-stack web applications.
+        </p>
+    </section>
+
+    <!-- Contact -->
     <section class="section" id="contact">
-        <h2>Contact</h2>
-        <p>Email: yourmail@example.com</p>
+        <h2 class="section-title">Contact: +91 9750306362</h2>
+        <p>Email: ranjitjswanth@gmail.com</p>
     </section>
 
 </body>
